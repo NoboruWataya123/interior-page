@@ -1,0 +1,32 @@
+@media (min-width: 670px) {
+.grid{
+    display: grid;
+    grid-template-columns:  auto auto auto;
+    grid-template-rows: 400px;
+    gap: 5rem;
+    place-items: center;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+}
+}
+
+@media (max-width: 670px) {
+    .grid{
+        margin-top: 5rem;
+        display: grid;
+        grid-template-columns:  auto auto;
+        grid-template-rows: 200px;
+        gap: 2rem;
+        place-items: center;
+        justify-content: center;
+        justify-self: center;
+        align-items: center;
+        align-self: center;
+        text-align: center;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+}
+}
